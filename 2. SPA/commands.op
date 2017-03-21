@@ -1,0 +1,18 @@
+ng new SPA
+ng g c components/shared/navbar
+ng g c components/home
+npm install bootstrap@4.0.0-alpha.6 --save
+npm install jquery --save
+npm install tether --save
+
+in .angular-cli.json
+      "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css"
+      ],
+      "scripts": [        
+        "../node_modules/jquery/dist/jquery.slim.min.js",
+        "../node_modules/tether/dist/js/tether.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+      ],
+
