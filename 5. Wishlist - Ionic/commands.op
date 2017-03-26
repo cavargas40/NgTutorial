@@ -1,0 +1,11 @@
+npm install -g ionic cordova
+ionic start Wishlist tabs --v2
+ionic serve
+http://localhost:8100
+http://localhost:8100/ionic-lab
+
+--install ionicview app on mobile device
+--https://apps.ionic.io/login
+
+ionic upload
+--insert account data to upload the app
